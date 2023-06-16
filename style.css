@@ -1,0 +1,58 @@
+a{
+  text-decoration: none;
+  font-size:25px;
+  color:red;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c9b193;
+  }
+  .button {
+    color:white;
+    border-radius:15px;
+    background-color:black;
+    text-align:center;
+    padding-top:10px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-bottom:10px;
+    font-size:25px;
+    cursor:pointer;
+  }
+  .button:hover {
+    color:rgb(173, 148, 148);
+  }
+  .cards {
+    display: table;
+  }
+  .card {
+    font-family: "Candara", sans-serif;
+    width: 320px;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    display: inline-block;
+    flex-direction: column;
+    margin: 2rem;
+    padding-top:5px;
+    background-color:aliceblue
+
+  }
+  .profile img {
+    z-index: 1;
+    width: 160px;
+    height: 150px;
+    position: relative;
+    display: block;
+    border-radius:100px;
+    cursor:pointer;
+  }
+  .cardcontent p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:rgb(211, 64, 27);
+  }
